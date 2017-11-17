@@ -1,5 +1,5 @@
 #!/bin/bash
-#running all curls for small content
+#running all curls for big content
 exec 1> >(logger -s -t $(basename $0)) 2>&1
 
 bash /home/pszmolke/curl_scripts/curl_script.sh http://www.unibo.it/portal_javascripts/Sunburst%20Theme/resourcegareappalto-cachekey-fef01798bafda6b36e19ac024930c28e.js
